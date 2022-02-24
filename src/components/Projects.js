@@ -12,8 +12,8 @@ const Projects = () => {
                         Apps I've Built
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        This are the projects I have created from scratch to complete. Some of are made as an individual,
-                        as a part of the project and others while working.
+                        This are the projects I have created from scratch to full. Made as a part for blogging,
+                        for clients and as a freelancer.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
@@ -21,6 +21,7 @@ const Projects = () => {
                         <a
                             href={project.link}
                             key={project.title}
+                            target="_blank"
                             className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
                                 <img

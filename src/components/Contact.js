@@ -5,6 +5,7 @@ const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+    const MAP_KEY = process.env.REACT_APP_MAP_KEY;
 
     const encode = d => {
         return Object.keys(d)
@@ -49,9 +50,8 @@ const Contact = () => {
                         frameBorder={0}
                         marginHeight={0}
                         marginWidth={0}
-                        style={{ filter: "opacity(0.7)" }}
-                        src="https://www.google.com/maps/embed/v1/place?q=20+allenbury&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                    />
+                        style={{ filter: "opacity(0.9)" }}
+                        src={`https://www.google.com/maps/embed/v1/place?q=20+allenbury&key=${MAP_KEY}`} />
                     <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
                         <div className="lg:w-1/2 px-6">
                             <h2 className="title-font font-semibold text-white tracking-widest text-xs">

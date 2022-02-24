@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <main className="text-gray-100 bg-gray-900">
+    <main className="text-gray-100 bg-gray-900" >
       <Navbar />
       <About />
       <Projects />
