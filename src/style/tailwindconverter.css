@@ -533,6 +533,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ml-20 {
   margin-left: 5rem;
 }
+.ml-0 {
+  margin-left: 0px;
+}
 .block {
   display: block;
 }
@@ -995,6 +998,10 @@ body {
 
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:ml-20 {
+    margin-left: 5rem;
   }
 
   .md\:w-1\/2 {
